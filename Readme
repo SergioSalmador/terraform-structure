@@ -1,0 +1,20 @@
+# Terraform Structure Example
+
+This repository provides an example infrastructure setup for Terraform, organized into different environments (development, staging, production) with two main modules: `global-variables` and `naming`.
+
+## Repository Structure
+
+-   `development/marketing`: Configuration for the development environment.
+-   `staging/marketing`: Configuration for the staging environment.
+-   `production/marketing`: Configuration for the production environment.
+-   `modules`: Contains reusable Terraform modules.
+
+## Modules
+
+### global-variables
+
+Module for defining global variables used across different environments.
+
+### naming
+
+Module for standardizing resource naming conventions.
